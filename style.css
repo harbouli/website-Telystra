@@ -101,21 +101,8 @@ h2 {
   object-fit: contain;
   object-position: center;
 }
-.email-box {
-  width: 400px;
-  height: 50px;
-  background-color: #ffffff;
-  display: flex;
-  border-radius: 40px;
-}
-.email-box input {
-  width: 100%;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  text-align: center;
-  color: #575757;
-}
+
+
 .bxs-fast-forward-circle {
   font-size: 50px;
   margin: auto 4px;
@@ -344,9 +331,7 @@ h2 {
   .home-text h1 {
     font-size: 2.5rem;
   }
-  .email-box {
-    width: 370px;
-  }
+
   .home-img {
     width: 350px;
     height: 400px;
@@ -365,9 +350,7 @@ h2 {
   .home-text p {
     max-width: 320px;
   }
-  .email-box {
-    width: 304px;
-  }
+
 }
 @media (max-width: 696px) {
   .menu {
@@ -376,9 +359,7 @@ h2 {
   #home {
     flex-direction: column-reverse;
   }
-  .email-box {
-    margin-bottom: 2rem;
-  }
+
   .service-content {
     grid-template-columns: 1fr;
   }
@@ -428,4 +409,17 @@ h2 {
   .home-text h1 {
     font-size: 1.8rem;
   }
+}
+
+.btn__contact{
+  background: #4abe85;
+  padding:10px 20px;
+  border-radius: 9999px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.btn__contact:hover{
+  background: #327edd;
 }
